@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TicketWave</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.tailwindcss.com"></script>
     @livewireStyles
 </head>
 <body class="bg-[#051F20]">
@@ -26,7 +26,7 @@
 </nav>
 
 {{-- Hero Section --}}
-<section class="relative h-[100vh] flex items-center bg-cover bg-center"
+<section class="relative h-[80vh] flex items-center bg-cover bg-center"
     style="background-image: url('https://images.unsplash.com/photo-1501281668745-f7f57925c3b4')">
 
     <div class="absolute inset-0 bg-[#051F20]/70"></div>
